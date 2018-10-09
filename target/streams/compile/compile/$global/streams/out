@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/scala/org/poster/view/MyScalatraServlet.scala:17:9: not found: value html[0m
+[0m[[0m[31merror[0m] [0m[0m        html.hello()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

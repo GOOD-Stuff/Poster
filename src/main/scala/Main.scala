@@ -1,8 +1,6 @@
 // https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
 // https://docs.scala-lang.org/getting-started-sbt-track/testing-scala-with-sbt-on-the-command-line.html
 //import org.scalatra._
-import com.wtf._
-import org.scalatra._
 import org.eclipse.jetty.server.Server
 import org.eclipse.jetty.servlet.{DefaultServlet, ServletContextHandler}
 import org.eclipse.jetty.webapp.WebAppContext
