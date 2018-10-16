@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/scala/org/poster/view/MyScalatraServlet.scala:17:9: not found: value html[0m
-[0m[[0m[31merror[0m] [0m[0m        html.hello()[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/scala/org/poster/control/DBWorker.scala:35:13: local variables must be initialized[0m
+[0m[[0m[31merror[0m] [0m[0m        var text: String = _[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/scala/org/poster/control/DBWorker.scala:36:13: local variables must be initialized[0m
+[0m[[0m[31merror[0m] [0m[0m        var connection: Connection = _[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

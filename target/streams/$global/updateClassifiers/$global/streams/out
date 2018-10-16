@@ -231,6 +231,21 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: mysql#mysql-connector-java;5.1.24 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.24
+[debug] 	found mysql#mysql-connector-java;5.1.24 in sbt-chain
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.googlecode.juniversalchardet#juniversalchardet;1.0.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.googlecode.juniversalchardet#juniversalchardet;1.0.3
@@ -530,6 +545,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
@@ -795,6 +822,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->compile]
@@ -1065,6 +1104,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
@@ -1339,6 +1390,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->compile]
@@ -1778,6 +1841,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.specs2#specs2-fp_2.12;4.0.1 [test->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.specs2#specs2-fp_2.12;4.0.1 [test->compile(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.specs2#specs2-fp_2.12;4.0.1 [test->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [test->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [test->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [test->compile]
@@ -2273,6 +2348,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
@@ -2664,6 +2751,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile-internal->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile-internal->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile-internal->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile-internal->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile-internal->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile-internal->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile-internal->compile]
@@ -2949,6 +3048,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
@@ -3214,6 +3325,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->compile]
@@ -3480,6 +3603,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime-internal->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime-internal->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime-internal->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime-internal->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime-internal->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime-internal->compile]
@@ -3750,6 +3885,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [compile->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->compile]
@@ -4015,6 +4162,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scalatra#scalatra_2.12;2.6.3 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [runtime->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [runtime->compile]
@@ -4409,6 +4568,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.specs2#specs2-fp_2.12;4.0.1 [test->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.specs2#specs2-fp_2.12;4.0.1 [test->compile(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.specs2#specs2-fp_2.12;4.0.1 [test->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [test->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [test->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [test->compile]
@@ -4994,6 +5165,18 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.specs2#specs2-fp_2.12;4.0.1 [test-internal->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.specs2#specs2-fp_2.12;4.0.1 [test-internal->compile(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.specs2#specs2-fp_2.12;4.0.1 [test-internal->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->default]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->default(compile)]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->runtime]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->compile]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->master]
+[debug] == resolving dependencies org.poster.view#poster$sources;0.1->mysql#mysql-connector-java;5.1.24 [test-internal->master]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [test-internal->compile]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [test-internal->runtime(*)]
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [test-internal->compile]
@@ -5226,35 +5409,122 @@
 [debug] == resolving dependencies org.poster.view#poster$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.7.v20170914!jetty-xml.jar(src)
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] 	[NOT REQUIRED] com.h2database#h2;1.4.197!h2.jar(src)
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.7.v20170914!jetty-util.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.7.v20170914!jetty-server.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatra#scalatra_2.12;2.6.3!scalatra_2.12.jar(src)
+[debug] 	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar(src)
+[debug] 	[NOT REQUIRED] com.h2database#h2;1.4.197!h2.jar(src)
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc_2.12;3.3.0!scalikejdbc_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-pool2;2.6.0!commons-pool2.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-core_2.12;3.3.0!scalikejdbc-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.0!scalikejdbc-interpolation-macro_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.jar(src)
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.0!scalikejdbc-interpolation_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.13!twirl-api_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher-extra_2.12;4.0.1!specs2-matcher-extra_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-mock_2.12;4.0.1!specs2-mock_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.12;4.0.1!specs2-common_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#classycle;1.4.3!classycle.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-analysis_2.12;4.0.1!specs2-analysis_2.12.jar(src)
+[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.6.11!byte-buddy.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.12;4.0.1!specs2-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatra#scalatra-specs2_2.12;2.6.3!scalatra-specs2_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;4.0.1!specs2-matcher_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-runner;9.4.6.v20170531!jetty-runner.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatra#scalatra-common_2.12;2.6.3!scalatra-common_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src)
+[debug] 	[NOT REQUIRED] com.googlecode.juniversalchardet#juniversalchardet;1.0.3!juniversalchardet.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] mysql#mysql-connector-java;5.1.24!mysql-connector-java.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.mockito#mockito-core;2.7.22!mockito-core.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-fp_2.12;4.0.1!specs2-fp_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.7.v20170914!jetty-xml.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.7.v20170914!jetty-security.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.7.v20170914!jetty-webapp.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.7.v20170914!jetty-io.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.7.v20170914!jetty-servlet.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.7.v20170914!jetty-http.jar(src)
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.scalatra#scalatra-test_2.12;2.6.3!scalatra-test_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.6.11!byte-buddy-agent.jar(src)
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.5!objenesis.jar(src)
 [debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
 [debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.scalatra#scalatra-common_2.12;2.6.3!scalatra-common_2.12.jar(src)
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src)
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.0!scalikejdbc-interpolation_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] settings loaded (93ms)
 [debug] 	default cache: /home/vldmr/.ivy2/cache
 [debug] 	default resolver: default
@@ -5264,135 +5534,22 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (68ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-core_2.12;3.3.0!scalikejdbc-core_2.12.jar(src)
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] no default cache defined: set to /home/vldmr/.ivy2/cache
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.7.v20170914!jetty-http.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.7.v20170914!jetty-server.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(src)
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (155ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.7.v20170914!jetty-servlet.jar(src)
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.0!scalikejdbc-interpolation-macro_2.12.jar(src)
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] no default cache defined: set to /home/vldmr/.ivy2/cache
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.7.v20170914!jetty-security.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatra#scalatra_2.12;2.6.3!scalatra_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.googlecode.juniversalchardet#juniversalchardet;1.0.3!juniversalchardet.jar(src)
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc_2.12;3.3.0!scalikejdbc_2.12.jar(src)
-[debug] 	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.7.v20170914!jetty-webapp.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-pool2;2.6.0!commons-pool2.jar(src)
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.7.v20170914!jetty-io.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.13!twirl-api_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.jar(src)
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar(src)
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.6.11!byte-buddy-agent.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher-extra_2.12;4.0.1!specs2-matcher-extra_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.5!objenesis.jar(src)
-[debug] 	[NOT REQUIRED] org.mockito#mockito-core;2.7.22!mockito-core.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#classycle;1.4.3!classycle.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatra#scalatra-test_2.12;2.6.3!scalatra-test_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-mock_2.12;4.0.1!specs2-mock_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.12;4.0.1!specs2-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.12;4.0.1!specs2-common_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-fp_2.12;4.0.1!specs2-fp_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;4.0.1!specs2-matcher_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-analysis_2.12;4.0.1!specs2-analysis_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatra#scalatra-specs2_2.12;2.6.3!scalatra-specs2_2.12.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (213ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
 [debug] no default cache defined: set to /home/vldmr/.ivy2/cache
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (215ms)
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
 [debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] settings loaded (171ms)
+[debug] settings loaded (100ms)
 [debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
@@ -5400,98 +5557,123 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-runner;9.4.6.v20170531!jetty-runner.jar(src)
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.6.11!byte-buddy.jar(src)
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /home/vldmr/.ivy2/cache
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (164ms)
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (77ms)
 [debug] 	default cache: /home/vldmr/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
 [debug] 	default [chain] [local, main]
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] no default cache defined: set to /home/vldmr/.ivy2/cache
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
 [debug] no default cache defined: set to /home/vldmr/.ivy2/cache
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] no default ivy user dir defined: set to /home/vldmr/.ivy2
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (95ms)
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (121ms)
+[debug] settings loaded (94ms)
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (136ms)
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (103ms)
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (57ms)
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] no default cache defined: set to /home/vldmr/.ivy2/cache
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (89ms)
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (251ms)
 [debug] 	default cache: /home/vldmr/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -5502,7 +5684,19 @@
 [debug] 	local [file]
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (97ms)
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (121ms)
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (127ms)
 [debug] 	default cache: /home/vldmr/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -5512,118 +5706,48 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default cache defined: set to /home/vldmr/.ivy2/cache
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (107ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	local [file]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (102ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (110ms)
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (115ms)
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (129ms)
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] settings loaded (85ms)
+[debug] 	local [file]
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (173ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (166ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] settings loaded (176ms)
-[debug] 	main [chain] [shared, public]
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	local [file]
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (161ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (171ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (141ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (174ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (192ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (165ms)
+[debug] settings loaded (140ms)
 [debug] 	default cache: /home/vldmr/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -5634,36 +5758,8 @@
 [debug] 	local [file]
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (209ms)
-[debug] settings loaded (193ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] settings loaded (201ms)
-[debug] 	default cache: /home/vldmr/.ivy2/cache
-[debug] 	main [chain] [shared, public]
-[debug] 	default resolver: default
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	-- 5 resolvers:
-[debug] 	local [file]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/vldmr/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (169ms)
+[debug] settings loaded (81ms)
+[debug] settings loaded (93ms)
 [debug] 	default cache: /home/vldmr/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -5672,7 +5768,7 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (232ms)
+[debug] settings loaded (168ms)
 [debug] 	default cache: /home/vldmr/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -5681,7 +5777,15 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] :: resolution report :: resolve 6878ms :: artifacts dl 636ms
+[debug] 	default cache: /home/vldmr/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] :: resolution report :: resolve 6305ms :: artifacts dl 340ms
 [debug] 	report for org.poster.view#poster$sources;0.1 compile produced in /home/vldmr/Projects/Scala/Poster/target/scala-2.12/resolution-cache/reports/org.poster.view-poster$sources-compile.xml
 [debug] 	report for org.poster.view#poster$sources;0.1 runtime produced in /home/vldmr/Projects/Scala/Poster/target/scala-2.12/resolution-cache/reports/org.poster.view-poster$sources-runtime.xml
 [debug] 	report for org.poster.view#poster$sources;0.1 test produced in /home/vldmr/Projects/Scala/Poster/target/scala-2.12/resolution-cache/reports/org.poster.view-poster$sources-test.xml
@@ -5695,4 +5799,4 @@
 [debug] 	report for org.poster.view#poster$sources;0.1 plugin produced in /home/vldmr/Projects/Scala/Poster/target/scala-2.12/resolution-cache/reports/org.poster.view-poster$sources-plugin.xml
 [debug] 	report for org.poster.view#poster$sources;0.1 pom produced in /home/vldmr/Projects/Scala/Poster/target/scala-2.12/resolution-cache/reports/org.poster.view-poster$sources-pom.xml
 [debug] 	report for org.poster.view#poster$sources;0.1 scala-tool produced in /home/vldmr/Projects/Scala/Poster/target/scala-2.12/resolution-cache/reports/org.poster.view-poster$sources-scala-tool.xml
-[debug] 	resolve done (6878ms resolve - 636ms download)
+[debug] 	resolve done (6305ms resolve - 340ms download)
