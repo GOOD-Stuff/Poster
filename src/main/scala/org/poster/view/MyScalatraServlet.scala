@@ -1,6 +1,5 @@
 package org.poster.view
 
-//import org.poster.control._
 import org.poster.control.DBWorker
 import org.scalatra._
 import views._
@@ -8,29 +7,12 @@ import views._
 
 class MyScalatraServlet extends ScalatraServlet {
     get("/") {
-        /*<html>
-            <head>
-                <title>Hello!</title>
-            </head>
-            <body>
-                <p>Hello, folks!</p>
-            </body>
-        </html>*/
-
         html.hello(DBWorker.getAll())
     }
 
     get("/post") {
+        DBWorker.SetName("Kekeke")
         html.post()
-        /*contentType="text/html"
-        <html>
-            <head>
-                <title>WTF</title>
-            </head>
-            <body>
-                <h1>YOU WILL NOT SHALL PASS</h1>
-            </body>
-        </html>*/
     }
 
 }
