@@ -21,10 +21,17 @@ Seq[Any](format.raw/*1.4*/("""
 """),format.raw/*3.1*/("""<html>
 <head>
     <title>Post mess</title>
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="/css/syntax.css" rel="stylesheet" />
+    <link href="/css/scalatra.css" rel="stylesheet" />
 </head>
 <body>
     <h2>Post your message: </h2>
-    <input type="button">
+    <form action="/post" method="POST">
+        <input type="text" name="message">
+        <input type="submit" value="Post" class="btn btn-primary">
+    </form>
 </body>
 </html>"""))
       }
@@ -42,9 +49,9 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Oct 10 00:06:50 MSK 2018
+                  DATE: Sun Oct 21 22:47:32 MSK 2018
                   SOURCE: /home/vldmr/Projects/Scala/Poster/src/main/twirl/views/post.scala.html
-                  HASH: 5048b50a5344029ba459bb2acce95e4cfbb371aa
+                  HASH: dabe01eee7266952781bc54b827921b4592af63a
                   MATRIX: 558->1|654->3|682->5
                   LINES: 14->1|19->1|21->3
                   -- GENERATED --

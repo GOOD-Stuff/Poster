@@ -9,4 +9,9 @@ class ScalatraBootstrap extends LifeCycle {
         DBWorker.connectDB()
         context.mount(new MyScalatraServlet, "/")
     }
+
+    override def destroy(context:ServletContext) {
+        println("Good bye!")
+        DBWorker.disconnectDB()
+    }
 }

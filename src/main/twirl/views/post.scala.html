@@ -3,9 +3,16 @@
 <html>
 <head>
     <title>Post mess</title>
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="/css/syntax.css" rel="stylesheet" />
+    <link href="/css/scalatra.css" rel="stylesheet" />
 </head>
 <body>
     <h2>Post your message: </h2>
-    <input type="button">
+    <form action="/post" method="POST">
+        <input type="text" name="message">
+        <input type="submit" value="Post" class="btn btn-primary">
+    </form>
 </body>
 </html>

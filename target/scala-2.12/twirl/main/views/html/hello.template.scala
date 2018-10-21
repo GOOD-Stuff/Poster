@@ -21,10 +21,17 @@ Seq[Any](format.raw/*1.17*/("""
 """),format.raw/*3.1*/("""<html>
     <head>
         <title>Kek</title>
+        <link type="text/css" href="/css/bootstrap.css" rel="stylesheet" />
+        <!--link href="/css/bootstrap-responsive.css" rel="stylesheet" /!-->
+        <!--link href="/css/syntax.css" rel="stylesheet" /!-->
+        <link type="text/css" href="/css/scalatra.css" rel="stylesheet" />
     </head>
     <body>
         <h1>RABOTAY!1!!!1</h1>
-        <h3>"""),_display_(/*9.14*/myStr),format.raw/*9.19*/("""</h3>
+        <div id="nav">
+        <a href=/post class="btn btn-primary">Post post</a>
+        </div>
+        <h3>"""),_display_(/*16.14*/myStr),format.raw/*16.19*/("""</h3>
     </body>
 </html>"""))
       }
@@ -42,11 +49,11 @@ Seq[Any](format.raw/*1.17*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Oct 16 23:23:51 MSK 2018
+                  DATE: Sun Oct 21 22:47:32 MSK 2018
                   SOURCE: /home/vldmr/Projects/Scala/Poster/src/main/twirl/views/hello.scala.html
-                  HASH: d95cff0f8487acc59fa6ffcb5b977d3a7bd37068
-                  MATRIX: 566->1|676->16|704->18|842->130|867->135
-                  LINES: 14->1|19->1|21->3|27->9|27->9
+                  HASH: ef7625ddf199859ffc9503c8bbaddcc1308b66a0
+                  MATRIX: 566->1|676->16|704->18|1232->519|1258->524
+                  LINES: 14->1|19->1|21->3|34->16|34->16
                   -- GENERATED --
               */
           
