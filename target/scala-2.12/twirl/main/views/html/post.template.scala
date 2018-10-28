@@ -29,11 +29,17 @@ Seq[Any](format.raw/*1.4*/("""
 <body>
     <h2>Post your message: </h2>
     <form action="/post" method="POST">
-        <input type="text" name="message">
-        <input type="submit" value="Post" class="btn btn-primary">
+        <dl>
+            <dt>Your name:
+                <dd><input type="text" name="user_name" value="anon" style="padding-bottom: 0.5em"></dd>
+            <dt>Your post:</dt>
+            <dd><textarea name="message" rows="5" cols="40"></textarea>
+            <dd><input type="submit" value="Post" class="btn btn-primary">
+        </dl>
     </form>
 </body>
-</html>"""))
+</html>
+"""))
       }
     }
   }
@@ -49,9 +55,9 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun Oct 21 22:47:32 MSK 2018
+                  DATE: Sun Oct 28 19:28:26 MSK 2018
                   SOURCE: /home/vldmr/Projects/Scala/Poster/src/main/twirl/views/post.scala.html
-                  HASH: dabe01eee7266952781bc54b827921b4592af63a
+                  HASH: 3c882d94e188e94a00a48611a793bba6a6bd16f4
                   MATRIX: 558->1|654->3|682->5
                   LINES: 14->1|19->1|21->3
                   -- GENERATED --

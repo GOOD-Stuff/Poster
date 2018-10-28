@@ -1,10 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/twirl/views/post.scala.html:1:1: type DBWorker is not a member of package org.poster.control[0m
-[0m[[0m[31merror[0m] [0m[0m@(DB: org.poster.control.DBWorker)[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/twirl/views/post.scala.html:1:26: type DBWorker is not a member of package org.poster.control[0m
-[0m[[0m[31merror[0m] [0m[0m@(DB: org.poster.control.DBWorker)[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/twirl/views/post.scala.html:14:8: type DBWorker is not a member of package org.poster.control[0m
-[0m[[0m[31merror[0m] [0m[0m</html>[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/twirl/views/hello.scala.html:19:21: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m                @if(@order.msg != "") {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/twirl/views/hello.scala.html:25:9: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m        </dl>[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

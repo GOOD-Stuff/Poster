@@ -1,6 +1,7 @@
 package org.poster.view
 
 import org.poster.control.DBWorker
+import org.poster.model.Post
 import org.scalatra._
 import views._
 
@@ -15,11 +16,11 @@ import scala.concurrent.ExecutionContext.Implicits.global
 
 class MyScalatraServlet extends ScalatraServlet with ScalateSupport
     with JValueResult with JacksonJsonSupport with SessionSupport with AtmosphereSupport {
-
+    val pwork = new Post
     implicit protected val jsonFormats: Formats = DefaultFormats
 
     get("/") {
-        html.hello(DBWorker.getAll())
+        html.hello(pwork.GetAllPosts())
     }
 
     get("/post") {
@@ -27,7 +28,7 @@ class MyScalatraServlet extends ScalatraServlet with ScalateSupport
     }
 
     post("/post") {
-        DBWorker.SetPost(params("message"))
+        pwork.WritePost(params("user_name"), params("message"))
         redirect("/")
     }
 

@@ -96,3 +96,17 @@ stop
 ~jetty:start
 stop
 ~jetty:start
+stop
+~jetty:start
+stop
+~jetty:start
+stop
+post
+~jetty:start
+stop
+~jetty:start
+stop
+~jetty:start
+stop
+~jetty:start
+stop
