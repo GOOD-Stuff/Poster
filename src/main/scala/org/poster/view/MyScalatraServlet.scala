@@ -1,7 +1,7 @@
 package org.poster.view
 
-import org.poster.control.DBWorker
-import org.poster.model.Post
+import org.poster.model.DBWorker
+import org.poster.control.Post
 import org.scalatra._
 import views._
 
@@ -23,13 +23,26 @@ class MyScalatraServlet extends ScalatraServlet with ScalateSupport
         html.hello(pwork.GetAllPosts())
     }
 
+    get("/login") {
+
+    }
+
+    post("/login") {
+
+    }
+
+    post("/logout") {
+
+    }
+
     get("/post") {
         html.post()
     }
 
     post("/post") {
-        pwork.WritePost(params("user_name"), params("message"))
-        redirect("/")
+        val rs = pwork.WritePost(params("user_name"), params("message"))
+        if (rs == 0)
+            redirect("/")
     }
 
     get("/json") {

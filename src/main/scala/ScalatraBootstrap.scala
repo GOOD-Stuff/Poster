@@ -1,5 +1,5 @@
 import javax.servlet.ServletContext
-import org.poster.control.DBWorker
+import org.poster.model.DBWorker
 import org.poster.view._
 import org.scalatra._
 

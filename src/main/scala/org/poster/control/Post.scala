@@ -1,7 +1,7 @@
-package org.poster.model
+package org.poster.control
 import java.text.SimpleDateFormat
 
-import org.poster.control.DBWorker
+import org.poster.model.DBWorker
 
 class Post {
     var date: String = _
@@ -12,10 +12,9 @@ class Post {
         val date = new java.util.Date
         val format_date = new SimpleDateFormat("yyyy-MM-dd")
         format_date.format(date)
-
     }
 
-    def WritePost(user_name: String, message: String): Unit = {
+    def WritePost(user_name: String, message: String): Int = {
         val date = GetPostDate()
         var name = ""
         if (user_name.isEmpty) name = "anonymous"
@@ -23,10 +22,11 @@ class Post {
 
         if (message.isEmpty) {
             println("<E> MESSAGE IS EMPTY!")
-            throw new Exception
+            -1
+        } else {
+            DBWorker.SetPost(name, message, date)
+            0
         }
-        
-        DBWorker.SetPost(name, message, date)
     }
 
     def GetAllPosts(): List[Post] = {

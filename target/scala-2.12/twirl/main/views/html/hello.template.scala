@@ -7,7 +7,7 @@ import _root_.play.twirl.api.Html
 import _root_.play.twirl.api.JavaScript
 import _root_.play.twirl.api.Txt
 import _root_.play.twirl.api.Xml
-/*1.2*/import org.poster.model.Post
+/*1.2*/import org.poster.control.Post
 
 object hello extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template1[List[Post],play.twirl.api.HtmlFormat.Appendable] {
 
@@ -59,10 +59,10 @@ Seq[Any](format.raw/*2.21*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun Oct 28 20:09:02 MSK 2018
+                  DATE: Mon Oct 29 22:07:56 MSK 2018
                   SOURCE: /home/vldmr/Projects/Scala/Poster/src/main/twirl/views/hello.scala.html
-                  HASH: 680e68b25cc8e4bd7e47c1f05560031b84570e4a
-                  MATRIX: 269->1|606->31|720->50|748->52|1299->576|1334->595|1374->597|1419->615|1447->634|1487->636|1536->657|1568->662|1582->667|1608->672|1670->707|1684->712|1710->717|1772->752|1786->757|1811->761|1865->784|1910->798|1946->807
+                  HASH: 13bede2b2eb36054290800ef3696c09397284ba7
+                  MATRIX: 269->1|608->33|722->52|750->54|1301->578|1336->597|1376->599|1421->617|1449->636|1489->638|1538->659|1570->664|1584->669|1610->674|1672->709|1686->714|1712->719|1774->754|1788->759|1813->763|1867->786|1912->800|1948->809
                   LINES: 10->1|15->2|20->2|22->4|36->18|36->18|36->18|37->19|37->19|37->19|38->20|38->20|38->20|38->20|39->21|39->21|39->21|40->22|40->22|40->22|41->23|42->24|43->25
                   -- GENERATED --
               */

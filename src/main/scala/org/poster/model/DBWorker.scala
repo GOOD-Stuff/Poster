@@ -1,4 +1,4 @@
-package org.poster.control
+package org.poster.model
 
 import java.util.Date
 import java.text.SimpleDateFormat
@@ -12,7 +12,7 @@ object DBWorker {
     val logger = LoggerFactory.getLogger(getClass)
     val url = "jdbc:mysql://localhost:3306/test_lol"
     val username = "root"
-    val password = "******"
+    val password = "idinahuy"
     var connection: Connection = null
     var cursor: ResultSet = _
     var isAccessed = true
@@ -38,7 +38,6 @@ object DBWorker {
                 val name = rs.getString("name")
                 val date = rs.getString("pdate")
                 text += id.toString + " " + name + " " + date + " | "
-                //text ::= name
             }
             state.close()
         } catch {

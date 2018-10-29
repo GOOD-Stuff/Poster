@@ -28,10 +28,19 @@ Seq[Any](format.raw/*1.4*/("""
 </head>
 <body>
     <h2>Post your message: </h2>
-    <form action="/post" method="POST">
+    <script type="text/javascript">
+        function validateForm() """),format.raw/*14.33*/("""{"""),format.raw/*14.34*/("""
+            """),format.raw/*15.13*/("""var msg=document.forms["Form"]["message"].value;
+            if (msg==null || msg=="") """),format.raw/*16.39*/("""{"""),format.raw/*16.40*/("""
+                """),format.raw/*17.17*/("""alert("Message cannot be empty!");
+                return false;
+            """),format.raw/*19.13*/("""}"""),format.raw/*19.14*/("""
+        """),format.raw/*20.9*/("""}"""),format.raw/*20.10*/("""
+    """),format.raw/*21.5*/("""</script>
+    <form action="/post" method="POST" name="Form" onsubmit="return validateForm()">
         <dl>
             <dt>Your name:
-                <dd><input type="text" name="user_name" value="anon" style="padding-bottom: 0.5em"></dd>
+                <dd><input type="text" name="user_name" value="" style="padding-bottom: 0.5em"></dd>
             <dt>Your post:</dt>
             <dd><textarea name="message" rows="5" cols="40"></textarea>
             <dd><input type="submit" value="Post" class="btn btn-primary">
@@ -55,11 +64,11 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun Oct 28 19:28:26 MSK 2018
+                  DATE: Mon Oct 29 22:07:56 MSK 2018
                   SOURCE: /home/vldmr/Projects/Scala/Poster/src/main/twirl/views/post.scala.html
-                  HASH: 3c882d94e188e94a00a48611a793bba6a6bd16f4
-                  MATRIX: 558->1|654->3|682->5
-                  LINES: 14->1|19->1|21->3
+                  HASH: d0c0f9676e59bafca72c6fbe68cd0197c23e9b5c
+                  MATRIX: 558->1|654->3|682->5|1100->395|1129->396|1170->409|1285->496|1314->497|1359->514|1464->591|1493->592|1529->601|1558->602|1590->607
+                  LINES: 14->1|19->1|21->3|32->14|32->14|33->15|34->16|34->16|35->17|37->19|37->19|38->20|38->20|39->21
                   -- GENERATED --
               */
           

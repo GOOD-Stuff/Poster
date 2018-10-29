@@ -10,10 +10,19 @@
 </head>
 <body>
     <h2>Post your message: </h2>
-    <form action="/post" method="POST">
+    <script type="text/javascript">
+        function validateForm() {
+            var msg=document.forms["Form"]["message"].value;
+            if (msg==null || msg=="") {
+                alert("Message cannot be empty!");
+                return false;
+            }
+        }
+    </script>
+    <form action="/post" method="POST" name="Form" onsubmit="return validateForm()">
         <dl>
             <dt>Your name:
-                <dd><input type="text" name="user_name" value="anon" style="padding-bottom: 0.5em"></dd>
+                <dd><input type="text" name="user_name" value="" style="padding-bottom: 0.5em"></dd>
             <dt>Your post:</dt>
             <dd><textarea name="message" rows="5" cols="40"></textarea>
             <dd><input type="submit" value="Post" class="btn btn-primary">
