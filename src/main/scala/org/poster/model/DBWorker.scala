@@ -7,12 +7,12 @@ import org.slf4j.{Logger, LoggerFactory}
 import scalikejdbc._
 import java.sql.{Connection, DriverManager, ResultSet}
 
-
+// TODO: rewrite, set 1 class and 2 traits
 object DBWorker {
     val logger = LoggerFactory.getLogger(getClass)
     val url = "jdbc:mysql://localhost:3306/test_lol"
     val username = "root"
-    val password = "idinahuy"
+    val password = "********"
     var connection: Connection = null
     var cursor: ResultSet = _
     var isAccessed = true
@@ -76,6 +76,7 @@ object DBWorker {
         (name, msg, date)
     }
 
+
     /**
       * @brief Write post_msg into table tpost
       * @param[in] post_msg - string with message of post
@@ -94,6 +95,46 @@ object DBWorker {
             case e: Exception => e.printStackTrace
         }
     }
+
+
+    def FindUser(login: String): (Int, String) = {
+        var id = 0
+        var password = ""
+        try {
+            val statement = connection.prepareStatement("SELECT id, password FROM tuser WHERE user_name = ?;")
+            statement.setString(1, login)
+            val rs = statement.executeQuery()
+            if (rs.next()) {
+                id = rs.getInt("id")
+                password = rs.getString("password")
+            }
+            statement.close()
+        } catch{
+            case e: Exception => e.printStackTrace
+        }
+        (id, password)
+    }
+
+
+    def AddUser(login: String, password: String): Int = {
+        try {
+            val (res, t) = FindUser(login)
+            if (res > 0) -1
+            else {
+                val statement = connection.prepareStatement("INSERT INTO tuser (user_name, password) VALUES (?, ?);")
+                statement.setString(1, login)
+                statement.setString(2, password)
+                val rs = statement.executeUpdate()
+                println("Add rs: " + rs)
+                statement.close()
+            }
+        } catch {
+            case e: Exception => e.printStackTrace
+        }
+        0
+    }
+
+
 
 
     /**

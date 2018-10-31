@@ -2,6 +2,7 @@ package org.poster.view
 
 import org.poster.model.DBWorker
 import org.poster.control.Post
+import org.poster.control.User
 import org.scalatra._
 import views._
 
@@ -17,26 +18,43 @@ import scala.concurrent.ExecutionContext.Implicits.global
 class MyScalatraServlet extends ScalatraServlet with ScalateSupport
     with JValueResult with JacksonJsonSupport with SessionSupport with AtmosphereSupport {
     val pwork = new Post
+    var user = new User//: User = _
+
     implicit protected val jsonFormats: Formats = DefaultFormats
 
+    before() {
+        //user = new User
+    }
+
     get("/") {
-        html.hello(pwork.GetAllPosts())
+        html.hello(pwork.GetAllPosts(), user)
     }
 
     get("/login") {
-
+        html.auth(user)
     }
 
     post("/login") {
-
+        val rs = user.UserLogin(params("login"), params("password"))
+        if (rs == 0) redirect("/")
+        else redirect("/login")
     }
 
     post("/logout") {
 
     }
 
+    get("/register") {
+        html.regs()
+    }
+
+    post("/register") {
+        user.UserRegister(params("login"), params("password"))
+        redirect("/")
+    }
+
     get("/post") {
-        html.post()
+        html.post(user)
     }
 
     post("/post") {

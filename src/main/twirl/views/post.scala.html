@@ -1,4 +1,4 @@
-@()
+@(user: org.poster.control.User)
 
 <html>
 <head>
@@ -22,11 +22,12 @@
     <form action="/post" method="POST" name="Form" onsubmit="return validateForm()">
         <dl>
             <dt>Your name:
-                <dd><input type="text" name="user_name" value="" style="padding-bottom: 0.5em"></dd>
+                <dd><input type="text" name="user_name" value=@user.user_name style="padding-bottom: 0.5em"></dd>
             <dt>Your post:</dt>
             <dd><textarea name="message" rows="5" cols="40"></textarea>
             <dd><input type="submit" value="Post" class="btn btn-primary">
         </dl>
     </form>
+    <a href="/" class="btn btn-primary">Back</a>
 </body>
 </html>

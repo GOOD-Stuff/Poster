@@ -1,5 +1,5 @@
-@import org.poster.control.Post
-@(plist: List[Post])
+@import org.poster.control._
+@(plist: List[Post], user: User)
 
 <html>
     <head>
@@ -10,9 +10,10 @@
         <link type="text/css" href="/css/scalatra.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>RABOTAY!1!!!1</h1>
+        <h1>RABOTAY!1!!!1, @user.id</h1>
         <div id="nav">
-            <a href=/post class="btn btn-primary">Post post</a>
+            <a href="/post" class="btn btn-primary">Post post</a>
+            <a href="/login" class="btn btn-primary"> Sing in/Sign up</a>
         </div>
         <dl>
             @for(order <- plist) {

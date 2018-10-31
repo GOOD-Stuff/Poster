@@ -1,0 +1,38 @@
+@()
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Regs</title>
+    <link href="/css/syntax.css" rel="stylesheet" />
+    <link href="/css/scalatra.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Registration</h2>
+    <script type="text/javascript">
+        function validateForm() {
+            var login=document.forms["Form"]["login"].value;
+            var passw=document.forms["Form"]["password"].value;
+
+            if (login==null || login=="") {
+                alert("Login cannot be empty!");
+                return false;
+            }
+            if (passw==null || passw=="") {
+                alert("Password cannot be empty!");
+                return false;
+            }
+        }
+    </script>
+    <form action="/register" method="POST" name="Form" onsubmit="return validateForm()">
+        <dl>
+            <dt>Your login:
+            <dd><input type="text" name="login" value="login" style="padding-bottom: 0.5em"></dd>
+
+            <dt>Your password:</dt>
+            <dd><input type="password" name="password" value="password" style="padding-bottom: 0.5em"></dd>
+            <dd><input type="submit" value="Sign up" class="btn btn-primary"></dd>
+        </dl>
+    </form>
+    <a href="/" class="btn btn-primary">Back</a>
+</body>
+</html>

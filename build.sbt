@@ -7,7 +7,7 @@ val ScalatraVersion = "2.6.+"
 
 libraryDependencies ++= Seq(
     // Scalatra
-    "org.scalatra" %% "scalatra" % "2.6.+",
+    "org.scalatra" %% "scalatra" % ScalatraVersion,
     "org.scalatra" %% "scalatra-scalate"    % "2.6.3",
     "org.scalatra" %% "scalatra-specs2"   % ScalatraVersion    % Test,
     "javax.servlet" % "javax.servlet-api" % "3.1.0" % Provided,
@@ -15,6 +15,9 @@ libraryDependencies ++= Seq(
     "org.scalatest" %% "scalatest" % "3.0.1" % "test",
     "org.eclipse.jetty" %  "jetty-plus"  % "9.4.7.v20170914"  % "container;provided",
     "org.eclipse.jetty" % "jetty-webapp" % "9.4.7.v20170914"  % "provided;compile",
+
+    // Auth
+    "org.scalatra"            %% "scalatra-auth"     % ScalatraVersion,
 
     // Scalike JSBC
     "org.scalikejdbc" %% "scalikejdbc"       % "3.3.0",
