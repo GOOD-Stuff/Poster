@@ -22,6 +22,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/vldmr/Projects/Scala/Poster/target/scala-2.12/classes/org/poster/view[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/poster[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/vldmr/Projects/Scala/Poster/target/scala-2.12/classes/org/poster[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html/user.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vldmr/Projects/Scala/Poster/target/scala-2.12/classes/views/html/user.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	views/html/post$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/vldmr/Projects/Scala/Poster/target/scala-2.12/classes/views/html/post$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/poster/model[0m
@@ -46,6 +48,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/vldmr/Projects/Scala/Poster/target/scala-2.12/classes/org/poster/view/MyScalatraServlet$$anon$1$$anonfun$receive$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	views/html/regs.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/vldmr/Projects/Scala/Poster/target/scala-2.12/classes/views/html/regs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html/user$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vldmr/Projects/Scala/Poster/target/scala-2.12/classes/views/html/user$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/poster/control[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/vldmr/Projects/Scala/Poster/target/scala-2.12/classes/org/poster/control[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m

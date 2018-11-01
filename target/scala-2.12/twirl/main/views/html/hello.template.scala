@@ -21,27 +21,38 @@ Seq[Any](format.raw/*2.33*/("""
 
 """),format.raw/*4.1*/("""<html>
     <head>
-        <title>Kek</title>
+        <title>
+            """),_display_(/*7.14*/if(user.id > 0)/*7.29*/ {_display_(Seq[Any](format.raw/*7.31*/("""
+                """),_display_(/*8.18*/user/*8.22*/.user_name),format.raw/*8.32*/("""
+            """)))}),format.raw/*9.14*/("""
+            """),format.raw/*10.13*/("""else """),format.raw/*10.18*/("""{"""),format.raw/*10.19*/("""
+                """),format.raw/*11.17*/("""Kek
+            """),format.raw/*12.13*/("""}"""),format.raw/*12.14*/("""
+        """),format.raw/*13.9*/("""</title>
         <!--link type="text/css" href="/css/bootstrap.css" rel="stylesheet" /!-->
         <!--link href="/css/bootstrap-responsive.css" rel="stylesheet" /!-->
         <!--link href="/css/syntax.css" rel="stylesheet" /!-->
         <link type="text/css" href="/css/scalatra.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>RABOTAY!1!!!1, """),_display_(/*13.29*/user/*13.33*/.id),format.raw/*13.36*/("""</h1>
+        <h1>RABOTAY!1!!!1, """),_display_(/*20.29*/user/*20.33*/.id),format.raw/*20.36*/("""</h1>
         <div id="nav">
             <a href="/post" class="btn btn-primary">Post post</a>
             <a href="/login" class="btn btn-primary"> Sing in/Sign up</a>
-        </div>
+            """),_display_(/*24.14*/if(user.id > 0)/*24.29*/ {_display_(Seq[Any](format.raw/*24.31*/("""
+                """),format.raw/*25.17*/("""<a href="/" class="btn btn-primary">All posts</a>
+                <a href="/user/:uname" class="btn btn-primary">Home</a>
+            """)))}),format.raw/*27.14*/("""
+        """),format.raw/*28.9*/("""</div>
         <dl>
-            """),_display_(/*19.14*/for(order <- plist) yield /*19.33*/ {_display_(Seq[Any](format.raw/*19.35*/("""
-                """),_display_(/*20.18*/if(order.msg != "")/*20.37*/ {_display_(Seq[Any](format.raw/*20.39*/("""
-                    """),format.raw/*21.21*/("""<dt>"""),_display_(/*21.26*/order/*21.31*/.name),format.raw/*21.36*/("""</dt>
-                        <dd>"""),_display_(/*22.30*/order/*22.35*/.date),format.raw/*22.40*/("""</dd>
-                        <dd>"""),_display_(/*23.30*/order/*23.35*/.msg),format.raw/*23.39*/("""</dd>
-                """)))}),format.raw/*24.18*/("""
-            """)))}),format.raw/*25.14*/("""
-        """),format.raw/*26.9*/("""</dl>
+            """),_display_(/*30.14*/for(post <- plist) yield /*30.32*/ {_display_(Seq[Any](format.raw/*30.34*/("""
+                """),_display_(/*31.18*/if(post.msg != "")/*31.36*/ {_display_(Seq[Any](format.raw/*31.38*/("""
+                    """),format.raw/*32.21*/("""<dt>"""),_display_(/*32.26*/post/*32.30*/.name),format.raw/*32.35*/("""</dt>
+                        <dd>"""),_display_(/*33.30*/post/*33.34*/.date),format.raw/*33.39*/("""</dd>
+                        <dd>"""),_display_(/*34.30*/post/*34.34*/.msg),format.raw/*34.38*/("""</dd>
+                """)))}),format.raw/*35.18*/("""
+            """)))}),format.raw/*36.14*/("""
+        """),format.raw/*37.9*/("""</dl>
     </body>
 </html>
 """))
@@ -60,11 +71,11 @@ Seq[Any](format.raw/*2.33*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Oct 31 23:45:50 MSK 2018
+                  DATE: Thu Nov 01 23:19:02 MSK 2018
                   SOURCE: /home/vldmr/Projects/Scala/Poster/src/main/twirl/views/hello.scala.html
-                  HASH: a65dea48ad9ce5d23c42e010101f2003aa2774d8
-                  MATRIX: 269->1|610->30|736->61|764->63|1184->456|1197->460|1221->463|1458->673|1493->692|1533->694|1578->712|1606->731|1646->733|1695->754|1727->759|1741->764|1767->769|1829->804|1843->809|1869->814|1931->849|1945->854|1970->858|2024->881|2069->895|2105->904
-                  LINES: 10->1|15->2|20->2|22->4|31->13|31->13|31->13|37->19|37->19|37->19|38->20|38->20|38->20|39->21|39->21|39->21|39->21|40->22|40->22|40->22|41->23|41->23|41->23|42->24|43->25|44->26
+                  HASH: 58f5ee2420371306967bf7c1231a452098a49783
+                  MATRIX: 269->1|610->30|736->61|764->63|837->110|860->125|899->127|943->145|955->149|985->159|1029->173|1070->186|1103->191|1132->192|1177->209|1221->225|1250->226|1286->235|1670->592|1683->596|1707->599|1916->781|1940->796|1980->798|2025->815|2191->950|2227->959|2287->992|2321->1010|2361->1012|2406->1030|2433->1048|2473->1050|2522->1071|2554->1076|2567->1080|2593->1085|2655->1120|2668->1124|2694->1129|2756->1164|2769->1168|2794->1172|2848->1195|2893->1209|2929->1218
+                  LINES: 10->1|15->2|20->2|22->4|25->7|25->7|25->7|26->8|26->8|26->8|27->9|28->10|28->10|28->10|29->11|30->12|30->12|31->13|38->20|38->20|38->20|42->24|42->24|42->24|43->25|45->27|46->28|48->30|48->30|48->30|49->31|49->31|49->31|50->32|50->32|50->32|50->32|51->33|51->33|51->33|52->34|52->34|52->34|53->35|54->36|55->37
                   -- GENERATED --
               */
           

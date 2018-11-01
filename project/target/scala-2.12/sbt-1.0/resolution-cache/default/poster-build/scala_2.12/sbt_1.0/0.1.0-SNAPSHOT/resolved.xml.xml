@@ -4,7 +4,7 @@
 		module="poster-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20181031210430"
+		publication="20181101220740"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

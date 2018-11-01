@@ -4,7 +4,7 @@
 		module="poster_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20181020140121"
+		publication="20181101220753"
 	>
 		<description>
 		Poster
@@ -45,6 +45,7 @@
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.1" conf="test->default(compile)"/>
 		<dependency org="org.eclipse.jetty" name="jetty-plus" rev="9.4.7.v20170914" conf="container->default(compile);provided->default(compile)"/>
 		<dependency org="org.eclipse.jetty" name="jetty-webapp" rev="9.4.7.v20170914" conf="provided->default(compile);compile->default(compile)"/>
+		<dependency org="org.scalatra" name="scalatra-auth_2.12" rev="2.6.+" conf="compile->default(compile)"/>
 		<dependency org="org.scalikejdbc" name="scalikejdbc_2.12" rev="3.3.0" conf="compile->default(compile)"/>
 		<dependency org="com.h2database" name="h2" rev="1.4.197" conf="compile->default(compile)"/>
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.24" conf="compile->default(compile)"/>

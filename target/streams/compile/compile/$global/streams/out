@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/scala/org/poster/control/User.scala:39:26: ';' expected but '=' found.[0m
-[0m[[0m[31merror[0m] [0m[0m            (tid, tpass) = DBWorker.FindUser(login)[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vldmr/Projects/Scala/Poster/src/main/scala/org/poster/control/Post.scala:4:27: imported `User' is permanently hidden by definition of class User in package control[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.poster.control.User[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

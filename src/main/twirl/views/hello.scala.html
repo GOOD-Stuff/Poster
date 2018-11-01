@@ -3,7 +3,14 @@
 
 <html>
     <head>
-        <title>Kek</title>
+        <title>
+            @if(user.id > 0) {
+                @user.user_name
+            }
+            else {
+                Kek
+            }
+        </title>
         <!--link type="text/css" href="/css/bootstrap.css" rel="stylesheet" /!-->
         <!--link href="/css/bootstrap-responsive.css" rel="stylesheet" /!-->
         <!--link href="/css/syntax.css" rel="stylesheet" /!-->
@@ -14,13 +21,17 @@
         <div id="nav">
             <a href="/post" class="btn btn-primary">Post post</a>
             <a href="/login" class="btn btn-primary"> Sing in/Sign up</a>
+            @if(user.id > 0) {
+                <a href="/" class="btn btn-primary">All posts</a>
+                <a href="/user/:uname" class="btn btn-primary">Home</a>
+            }
         </div>
         <dl>
-            @for(order <- plist) {
-                @if(order.msg != "") {
-                    <dt>@order.name</dt>
-                        <dd>@order.date</dd>
-                        <dd>@order.msg</dd>
+            @for(post <- plist) {
+                @if(post.msg != "") {
+                    <dt>@post.name</dt>
+                        <dd>@post.date</dd>
+                        <dd>@post.msg</dd>
                 }
             }
         </dl>

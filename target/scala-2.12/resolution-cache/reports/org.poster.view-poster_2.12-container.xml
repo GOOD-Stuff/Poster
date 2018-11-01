@@ -7,109 +7,109 @@
 		revision="0.1"
 		conf="container"
 		confs="compile, runtime, test, provided, optional, container, jetty, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181020140121"/>
+		date="20181101220753"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty.websocket" name="websocket-server">
-			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023815" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023815" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
-				<metadata-artifact status="successful" details="" size="3551" time="294" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-server/ivy-9.4.6.v20170531.xml" searched="true" original-local-location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-server/ivy-9.4.6.v20170531.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.6.v20170531/websocket-server-9.4.6.v20170531.pom"/>
+				<metadata-artifact status="no" details="" size="10694" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-server/ivy-9.4.6.v20170531.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.6.v20170531/websocket-server-9.4.6.v20170531.pom"/>
 				<caller organisation="org.poster.view" name="poster_2.12" conf="container" rev="9.4.6.v20170531" rev-constraint-default="9.4.6.v20170531" rev-constraint-dynamic="9.4.6.v20170531" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="websocket-server" type="jar" ext="jar" status="successful" details="" size="34891" time="1142" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-server/jars/websocket-server-9.4.6.v20170531.jar">
+					<artifact name="websocket-server" type="jar" ext="jar" status="no" details="" size="34891" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-server/jars/websocket-server-9.4.6.v20170531.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.6.v20170531/websocket-server-9.4.6.v20170531.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty.websocket" name="websocket-servlet">
-			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023754" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023754" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
-				<metadata-artifact status="successful" details="" size="2084" time="292" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-servlet/ivy-9.4.6.v20170531.xml" searched="true" original-local-location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-servlet/ivy-9.4.6.v20170531.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.6.v20170531/websocket-servlet-9.4.6.v20170531.pom"/>
+				<metadata-artifact status="no" details="" size="9364" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-servlet/ivy-9.4.6.v20170531.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.6.v20170531/websocket-servlet-9.4.6.v20170531.pom"/>
 				<caller organisation="org.eclipse.jetty.websocket" name="websocket-server" conf="default, compile, runtime, master" rev="9.4.6.v20170531" rev-constraint-default="9.4.6.v20170531" rev-constraint-dynamic="9.4.6.v20170531" callerrev="9.4.6.v20170531"/>
 				<artifacts>
-					<artifact name="websocket-servlet" type="jar" ext="jar" status="successful" details="" size="21303" time="1002" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-servlet/jars/websocket-servlet-9.4.6.v20170531.jar">
+					<artifact name="websocket-servlet" type="jar" ext="jar" status="no" details="" size="21303" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-servlet/jars/websocket-servlet-9.4.6.v20170531.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.6.v20170531/websocket-servlet-9.4.6.v20170531.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty.websocket" name="websocket-client">
-			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023730" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023730" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
-				<metadata-artifact status="successful" details="" size="5491" time="293" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/ivy-9.4.6.v20170531.xml" searched="true" original-local-location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/ivy-9.4.6.v20170531.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.6.v20170531/websocket-client-9.4.6.v20170531.pom"/>
+				<metadata-artifact status="no" details="" size="10153" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/ivy-9.4.6.v20170531.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.6.v20170531/websocket-client-9.4.6.v20170531.pom"/>
 				<caller organisation="org.eclipse.jetty.websocket" name="websocket-server" conf="default, compile, runtime, master" rev="9.4.6.v20170531" rev-constraint-default="9.4.6.v20170531" rev-constraint-dynamic="9.4.6.v20170531" callerrev="9.4.6.v20170531"/>
 				<artifacts>
-					<artifact name="websocket-client" type="jar" ext="jar" status="successful" details="" size="35362" time="866" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/jars/websocket-client-9.4.6.v20170531.jar">
+					<artifact name="websocket-client" type="jar" ext="jar" status="no" details="" size="35362" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/jars/websocket-client-9.4.6.v20170531.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.6.v20170531/websocket-client-9.4.6.v20170531.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-client">
-			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023314" resolver="public" artresolver="public" homepage="http://www.eclipse.org/jetty" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023314" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
-				<metadata-artifact status="successful" details="" size="4385" time="299" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-client/ivy-9.4.6.v20170531.xml" searched="true" original-local-location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-client/ivy-9.4.6.v20170531.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.6.v20170531/jetty-client-9.4.6.v20170531.pom"/>
+				<metadata-artifact status="no" details="" size="8993" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-client/ivy-9.4.6.v20170531.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.6.v20170531/jetty-client-9.4.6.v20170531.pom"/>
 				<caller organisation="org.eclipse.jetty.websocket" name="websocket-client" conf="compile, runtime" rev="9.4.6.v20170531" rev-constraint-default="9.4.6.v20170531" rev-constraint-dynamic="9.4.6.v20170531" callerrev="9.4.6.v20170531"/>
 				<artifacts>
-					<artifact name="jetty-client" type="jar" ext="jar" status="successful" details="" size="268784" time="1290" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-client/jars/jetty-client-9.4.6.v20170531.jar">
+					<artifact name="jetty-client" type="jar" ext="jar" status="no" details="" size="268784" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-client/jars/jetty-client-9.4.6.v20170531.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.6.v20170531/jetty-client-9.4.6.v20170531.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty.websocket" name="websocket-common">
-			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023706" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023706" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
-				<metadata-artifact status="successful" details="" size="2616" time="293" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/ivy-9.4.6.v20170531.xml" searched="true" original-local-location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/ivy-9.4.6.v20170531.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.6.v20170531/websocket-common-9.4.6.v20170531.pom"/>
+				<metadata-artifact status="no" details="" size="9581" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/ivy-9.4.6.v20170531.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.6.v20170531/websocket-common-9.4.6.v20170531.pom"/>
 				<caller organisation="org.eclipse.jetty.websocket" name="websocket-client" conf="compile, runtime" rev="9.4.6.v20170531" rev-constraint-default="9.4.6.v20170531" rev-constraint-dynamic="9.4.6.v20170531" callerrev="9.4.6.v20170531"/>
 				<caller organisation="org.eclipse.jetty.websocket" name="websocket-server" conf="default, compile, runtime, master" rev="9.4.6.v20170531" rev-constraint-default="9.4.6.v20170531" rev-constraint-dynamic="9.4.6.v20170531" callerrev="9.4.6.v20170531"/>
 				<artifacts>
-					<artifact name="websocket-common" type="jar" ext="jar" status="successful" details="" size="199656" time="1208" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/jars/websocket-common-9.4.6.v20170531.jar">
+					<artifact name="websocket-common" type="jar" ext="jar" status="no" details="" size="199656" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/jars/websocket-common-9.4.6.v20170531.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.6.v20170531/websocket-common-9.4.6.v20170531.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty.websocket" name="websocket-api">
-			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023641" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+			<revision name="9.4.6.v20170531" status="release" pubdate="20170601023641" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
-				<metadata-artifact status="successful" details="" size="2199" time="295" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/ivy-9.4.6.v20170531.xml" searched="true" original-local-location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/ivy-9.4.6.v20170531.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.6.v20170531/websocket-api-9.4.6.v20170531.pom"/>
+				<metadata-artifact status="no" details="" size="9044" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/ivy-9.4.6.v20170531.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.6.v20170531/websocket-api-9.4.6.v20170531.pom"/>
 				<caller organisation="org.eclipse.jetty.websocket" name="websocket-servlet" conf="compile, runtime" rev="9.4.6.v20170531" rev-constraint-default="9.4.6.v20170531" rev-constraint-dynamic="9.4.6.v20170531" callerrev="9.4.6.v20170531"/>
 				<caller organisation="org.eclipse.jetty.websocket" name="websocket-common" conf="compile, runtime" rev="9.4.6.v20170531" rev-constraint-default="9.4.6.v20170531" rev-constraint-dynamic="9.4.6.v20170531" callerrev="9.4.6.v20170531"/>
 				<artifacts>
-					<artifact name="websocket-api" type="jar" ext="jar" status="successful" details="" size="41996" time="1141" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/jars/websocket-api-9.4.6.v20170531.jar">
+					<artifact name="websocket-api" type="jar" ext="jar" status="no" details="" size="41996" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/jars/websocket-api-9.4.6.v20170531.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.6.v20170531/websocket-api-9.4.6.v20170531.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-plus">
-			<revision name="9.4.7.v20170914" status="release" pubdate="20170914174557" resolver="public" artresolver="public" homepage="http://www.eclipse.org/jetty" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+			<revision name="9.4.7.v20170914" status="release" pubdate="20170914174557" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
-				<metadata-artifact status="successful" details="" size="2566" time="325" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-plus/ivy-9.4.7.v20170914.xml" searched="true" original-local-location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-plus/ivy-9.4.7.v20170914.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-plus/9.4.7.v20170914/jetty-plus-9.4.7.v20170914.pom"/>
+				<metadata-artifact status="no" details="" size="9111" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-plus/ivy-9.4.7.v20170914.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-plus/9.4.7.v20170914/jetty-plus-9.4.7.v20170914.pom"/>
 				<caller organisation="org.poster.view" name="poster_2.12" conf="container" rev="9.4.7.v20170914" rev-constraint-default="9.4.7.v20170914" rev-constraint-dynamic="9.4.7.v20170914" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jetty-plus" type="jar" ext="jar" status="successful" details="" size="54675" time="1148" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-plus/jars/jetty-plus-9.4.7.v20170914.jar">
+					<artifact name="jetty-plus" type="jar" ext="jar" status="no" details="" size="54675" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-plus/jars/jetty-plus-9.4.7.v20170914.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-plus/9.4.7.v20170914/jetty-plus-9.4.7.v20170914.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-jndi">
-			<revision name="9.4.7.v20170914" status="release" pubdate="20170914174533" resolver="public" artresolver="public" homepage="http://www.eclipse.org/jetty" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+			<revision name="9.4.7.v20170914" status="release" pubdate="20170914174533" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
-				<metadata-artifact status="successful" details="" size="2811" time="296" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-jndi/ivy-9.4.7.v20170914.xml" searched="true" original-local-location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-jndi/ivy-9.4.7.v20170914.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jndi/9.4.7.v20170914/jetty-jndi-9.4.7.v20170914.pom"/>
+				<metadata-artifact status="no" details="" size="9149" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-jndi/ivy-9.4.7.v20170914.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jndi/9.4.7.v20170914/jetty-jndi-9.4.7.v20170914.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-plus" conf="default, compile, runtime, master" rev="9.4.7.v20170914" rev-constraint-default="9.4.7.v20170914" rev-constraint-dynamic="9.4.7.v20170914" callerrev="9.4.7.v20170914"/>
 				<artifacts>
-					<artifact name="jetty-jndi" type="jar" ext="jar" status="successful" details="" size="41332" time="1146" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-jndi/jars/jetty-jndi-9.4.7.v20170914.jar">
+					<artifact name="jetty-jndi" type="jar" ext="jar" status="no" details="" size="41332" time="0" location="/home/vldmr/.ivy2/cache/org.eclipse.jetty/jetty-jndi/jars/jetty-jndi-9.4.7.v20170914.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jndi/9.4.7.v20170914/jetty-jndi-9.4.7.v20170914.jar"/>
 					</artifact>
 				</artifacts>

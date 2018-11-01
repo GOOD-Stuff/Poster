@@ -1,6 +1,7 @@
 package org.poster.control
 import java.text.SimpleDateFormat
 
+import org.poster.control.User
 import org.poster.model.DBWorker
 
 class Post {
@@ -31,6 +32,24 @@ class Post {
 
     def GetAllPosts(): List[Post] = {
         DBWorker.setCursor()
+        var plist = List[Post]()
+
+        while (DBWorker.isAccessed) {
+            val post = new Post()
+            val (tname, tmsg, tdate) = DBWorker.getRow()
+            post.name = tname
+            post.msg  = tmsg
+            post.date = tdate
+
+            plist = post :: plist
+        }
+
+        plist
+    }
+
+
+    def GetUserPosts(user: User): List[Post] = {
+        DBWorker.setSpecCursor(user.id)
         var plist = List[Post]()
 
         while (DBWorker.isAccessed) {

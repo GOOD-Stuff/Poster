@@ -12,7 +12,7 @@ object DBWorker {
     val logger = LoggerFactory.getLogger(getClass)
     val url = "jdbc:mysql://localhost:3306/test_lol"
     val username = "root"
-    val password = "********"
+    val password = "*******"
     var connection: Connection = null
     var cursor: ResultSet = _
     var isAccessed = true
@@ -55,6 +55,18 @@ object DBWorker {
             case e: Exception => e.printStackTrace
         }
     }
+
+    def setSpecCursor(user_id: Int): Unit = {
+        try {
+            val state = connection.prepareStatement("SELECT user_name, message, post_date FROM tpost_f WHERE id = ?;")
+            state.setInt(1, user_id)
+            cursor = state.executeQuery()
+            isAccessed = true
+        } catch {
+            case e: Exception => e.printStackTrace
+        }
+    }
+
 
     // XXX: rewrite, return sequence
     def getRow(): (String, String, String) = {//List[String] = {//String = {

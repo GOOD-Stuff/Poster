@@ -15,7 +15,7 @@ import org.scalatra.scalate.ScalateSupport
 import scala.concurrent.ExecutionContext.Implicits.global
 // https://alvinalexander.com/scala/how-to-connect-mysql-database-scala-jdbc-select-query
 
-class MyScalatraServlet extends ScalatraServlet with ScalateSupport
+class MyScalatraServlet extends ScalatraServlet with ScalateSupport with FlashMapSupport
     with JValueResult with JacksonJsonSupport with SessionSupport with AtmosphereSupport {
     val pwork = new Post
     var user = new User//: User = _
@@ -30,13 +30,17 @@ class MyScalatraServlet extends ScalatraServlet with ScalateSupport
         html.hello(pwork.GetAllPosts(), user)
     }
 
+    get("/user/:uname") {
+        html.hello(pwork.GetUserPosts(user), user)
+    }
+
     get("/login") {
         html.auth(user)
     }
 
     post("/login") {
         val rs = user.UserLogin(params("login"), params("password"))
-        if (rs == 0) redirect("/")
+        if (rs == 0) redirect("/user/" + user.user_name)//servletContext.getRequestDispatcher("/user/" + user.user_name).forward(request, response)
         else redirect("/login")
     }
 
