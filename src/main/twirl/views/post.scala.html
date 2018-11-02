@@ -13,8 +13,12 @@
     <script type="text/javascript">
         function validateForm() {
             var msg=document.forms["Form"]["message"].value;
-            if (msg==null || msg=="") {
+            if (msg==null || msg=="" || msg==" ") {
                 alert("Message cannot be empty!");
+                return false;
+            }
+            if (!msg.replace(/\s/g, '').length) {
+                alert("Srsly? Stop frodding! Write something useful...");
                 return false;
             }
         }

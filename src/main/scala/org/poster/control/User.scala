@@ -3,7 +3,7 @@ package org.poster.control
 import org.poster.model.DBWorker
 
 class User {
-    var id = 0
+    var id = 1
     var password = ""
     var user_name = "anonymous"
     println("Call User construct!")
@@ -12,7 +12,7 @@ class User {
         val (tid, tpass) = DBWorker.FindUser(login)
         id = tid
         this.password = tpass
-        if ((id > 0) && (this.password == password)) {
+        if ((id > 1) && (this.password == password)) {
             user_name = login;
             0
         }
@@ -20,7 +20,9 @@ class User {
     }
 
     def UserLogout(): Unit = {
-        id = 0
+        id = 1
+        password = ""
+        user_name = "anonymous"
     }
 
 
@@ -30,7 +32,7 @@ class User {
     }
 
 
-    def UserRegister(login: String, password: String): Unit = {
+    def UserRegister(login: String, password: String): Int = {
         val (tid, tpass) = DBWorker.FindUser(login)
         id = tid
         this.password = tpass
@@ -38,6 +40,8 @@ class User {
             val rs = DBWorker.AddUser(login, password)
             val (tid, tpass) = DBWorker.FindUser(login)
             id = tid
-        }
+            0
+        } else
+            -1
     }
 }

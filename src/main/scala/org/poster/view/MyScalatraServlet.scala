@@ -1,37 +1,39 @@
 package org.poster.view
 
-import org.poster.model.DBWorker
 import org.poster.control.Post
 import org.poster.control.User
 import org.scalatra._
 import views._
 
-import org.json4s.JsonDSL._
+/*import org.json4s.JsonDSL._
 import org.json4s._
 import org.scalatra.atmosphere._
 import org.scalatra.json.{JValueResult, JacksonJsonSupport}
 import org.scalatra.scalate.ScalateSupport
-
+*/
 import scala.concurrent.ExecutionContext.Implicits.global
 // https://alvinalexander.com/scala/how-to-connect-mysql-database-scala-jdbc-select-query
 
-class MyScalatraServlet extends ScalatraServlet with ScalateSupport with FlashMapSupport
-    with JValueResult with JacksonJsonSupport with SessionSupport with AtmosphereSupport {
+class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMapSupport {
+    //with JValueResult with JacksonJsonSupport with ScalateSupport with AtmosphereSupport {
     val pwork = new Post
     var user = new User//: User = _
 
-    implicit protected val jsonFormats: Formats = DefaultFormats
+    //implicit protected val jsonFormats: Formats = DefaultFormats
 
     before() {
         //user = new User
     }
 
     get("/") {
-        html.hello(pwork.GetAllPosts(), user)
+        html.hello(pwork.GetAllPosts(), user, "Welcome to the Poster!")
     }
 
     get("/user/:uname") {
-        html.hello(pwork.GetUserPosts(user), user)
+        if ((params("uname") == user.user_name) && (params("uname") != "anonymous"))
+            html.hello(pwork.GetUserPosts(user.id), user, "Hi " + user.user_name + ", this is your home page!")
+        else
+            halt(404)
     }
 
     get("/login") {
@@ -44,8 +46,9 @@ class MyScalatraServlet extends ScalatraServlet with ScalateSupport with FlashMa
         else redirect("/login")
     }
 
-    post("/logout") {
-
+    get("/logout") {
+        user.UserLogout()
+        redirect("/")
     }
 
     get("/register") {
@@ -53,8 +56,11 @@ class MyScalatraServlet extends ScalatraServlet with ScalateSupport with FlashMa
     }
 
     post("/register") {
-        user.UserRegister(params("login"), params("password"))
-        redirect("/")
+        val rs = user.UserRegister(params("login"), params("password"))
+        if (rs == 0) redirect("/")
+        else {
+          <p>Hahaha, very funny, but try again!</p>
+        }
     }
 
     get("/post") {
@@ -62,7 +68,7 @@ class MyScalatraServlet extends ScalatraServlet with ScalateSupport with FlashMa
     }
 
     post("/post") {
-        val rs = pwork.WritePost(params("user_name"), params("message"))
+        val rs = pwork.WritePost(params("user_name"), params("message"), user.id)
         if (rs == 0)
             redirect("/")
     }
@@ -71,7 +77,7 @@ class MyScalatraServlet extends ScalatraServlet with ScalateSupport with FlashMa
 
     }
 
-    atmosphere("/the-chat") {
+    /*atmosphere("/the-chat") {
         new AtmosphereClient {
             def receive = {
                 case Connected =>
@@ -81,5 +87,5 @@ class MyScalatraServlet extends ScalatraServlet with ScalateSupport with FlashMa
                 case JsonMessage(json) => broadcast(json)
             }
         }
-    }
+    }*/
 }

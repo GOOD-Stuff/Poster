@@ -1,13 +1,12 @@
 @import org.poster.control._
-@(plist: List[Post], user: User)
+@(plist: List[Post], user: User, greeting: String)
 
 <html>
     <head>
         <title>
-            @if(user.id > 0) {
+            @if(user.id > 1) {
                 @user.user_name
-            }
-            else {
+            } else {
                 Kek
             }
         </title>
@@ -17,13 +16,14 @@
         <link type="text/css" href="/css/scalatra.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>RABOTAY!1!!!1, @user.id</h1>
+        <h1>@greeting</h1>
         <div id="nav">
             <a href="/post" class="btn btn-primary">Post post</a>
             <a href="/login" class="btn btn-primary"> Sing in/Sign up</a>
-            @if(user.id > 0) {
+            @if(user.id > 1) {
                 <a href="/" class="btn btn-primary">All posts</a>
-                <a href="/user/:uname" class="btn btn-primary">Home</a>
+                <a href="/user/@user.user_name" class="btn btn-primary">Home</a>
+                <a href="/logout" class="btn btn-primary">Logout</a>
             }
         </div>
         <dl>

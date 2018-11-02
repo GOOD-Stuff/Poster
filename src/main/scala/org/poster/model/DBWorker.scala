@@ -10,9 +10,9 @@ import java.sql.{Connection, DriverManager, ResultSet}
 // TODO: rewrite, set 1 class and 2 traits
 object DBWorker {
     val logger = LoggerFactory.getLogger(getClass)
-    val url = "jdbc:mysql://localhost:3306/test_lol"
+    val url = "jdbc:mysql://localhost:3306/poster"
     val username = "root"
-    val password = "*******"
+    val password = "******"
     var connection: Connection = null
     var cursor: ResultSet = _
     var isAccessed = true
@@ -27,24 +27,6 @@ object DBWorker {
         }
     }
 
-    def getAll(): String = {//List[String] = {//String = {
-        var text: String = ""
-        //var text = List[String]()
-        try {
-            val state = connection.createStatement
-            val rs = state.executeQuery("SELECT id, name, pdate FROM tpost;")
-            while (rs.next) {
-                val id = rs.getInt("id")
-                val name = rs.getString("name")
-                val date = rs.getString("pdate")
-                text += id.toString + " " + name + " " + date + " | "
-            }
-            state.close()
-        } catch {
-            case e: Exception => e.printStackTrace
-        }
-        text
-    }
 
     def setCursor(): Unit = {
         try {
@@ -58,7 +40,7 @@ object DBWorker {
 
     def setSpecCursor(user_id: Int): Unit = {
         try {
-            val state = connection.prepareStatement("SELECT user_name, message, post_date FROM tpost_f WHERE id = ?;")
+            val state = connection.prepareStatement("SELECT user_name, message, post_date FROM tpost_f WHERE user_id = ?;")
             state.setInt(1, user_id)
             cursor = state.executeQuery()
             isAccessed = true
@@ -95,12 +77,13 @@ object DBWorker {
       *
       * @return none
       */
-    def SetPost(user_name: String, post_msg: String, post_date: String): Unit = {
+    def SetPost(user_name: String, post_msg: String, post_date: String, user_id: Int): Unit = {
         try {
-            val statement = connection.prepareStatement("INSERT INTO tpost_f (user_name, message, post_date) VALUES (?, ?, ?);")
+            val statement = connection.prepareStatement("INSERT INTO tpost_f (user_name, message, post_date, user_id) VALUES (?, ?, ?, ?);")
             statement.setString(1, user_name)
             statement.setString(2, post_msg)
             statement.setString(3, post_date)
+            statement.setInt(4, user_id)
             val rs = statement.executeUpdate()
             statement.close()
         } catch {
