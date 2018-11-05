@@ -31,16 +31,20 @@ Seq[Any](format.raw/*1.33*/("""
     <script type="text/javascript">
         function validateForm() """),format.raw/*14.33*/("""{"""),format.raw/*14.34*/("""
             """),format.raw/*15.13*/("""var msg=document.forms["Form"]["message"].value;
-            if (msg==null || msg=="") """),format.raw/*16.39*/("""{"""),format.raw/*16.40*/("""
+            if (msg==null || msg=="" || msg==" ") """),format.raw/*16.51*/("""{"""),format.raw/*16.52*/("""
                 """),format.raw/*17.17*/("""alert("Message cannot be empty!");
                 return false;
             """),format.raw/*19.13*/("""}"""),format.raw/*19.14*/("""
-        """),format.raw/*20.9*/("""}"""),format.raw/*20.10*/("""
-    """),format.raw/*21.5*/("""</script>
+            """),format.raw/*20.13*/("""if (!msg.replace(/\s/g, '').length) """),format.raw/*20.49*/("""{"""),format.raw/*20.50*/("""
+                """),format.raw/*21.17*/("""alert("Srsly? Stop frodding! Write something useful...");
+                return false;
+            """),format.raw/*23.13*/("""}"""),format.raw/*23.14*/("""
+        """),format.raw/*24.9*/("""}"""),format.raw/*24.10*/("""
+    """),format.raw/*25.5*/("""</script>
     <form action="/post" method="POST" name="Form" onsubmit="return validateForm()">
         <dl>
             <dt>Your name:
-                <dd><input type="text" name="user_name" value="""),_display_(/*25.64*/user/*25.68*/.user_name),format.raw/*25.78*/(""" """),format.raw/*25.79*/("""style="padding-bottom: 0.5em"></dd>
+                <dd><input type="text" name="user_name" value="""),_display_(/*29.64*/user/*29.68*/.user_name),format.raw/*29.78*/(""" """),format.raw/*29.79*/("""style="padding-bottom: 0.5em"></dd>
             <dt>Your post:</dt>
             <dd><textarea name="message" rows="5" cols="40"></textarea>
             <dd><input type="submit" value="Post" class="btn btn-primary">
@@ -65,11 +69,11 @@ Seq[Any](format.raw/*1.33*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Oct 31 23:48:28 MSK 2018
+                  DATE: Sun Nov 04 18:33:35 MSK 2018
                   SOURCE: /home/vldmr/Projects/Scala/Poster/src/main/twirl/views/post.scala.html
-                  HASH: 803381089096efc367a0133d819b997357ef6ee0
-                  MATRIX: 582->1|708->32|736->34|1154->424|1183->425|1224->438|1339->525|1368->526|1413->543|1518->620|1547->621|1583->630|1612->631|1644->636|1869->834|1882->838|1913->848|1942->849
-                  LINES: 14->1|19->1|21->3|32->14|32->14|33->15|34->16|34->16|35->17|37->19|37->19|38->20|38->20|39->21|43->25|43->25|43->25|43->25
+                  HASH: 2fcf8f89881f937cea35907b6c6476cf3cf71f35
+                  MATRIX: 582->1|708->32|736->34|1154->424|1183->425|1224->438|1351->537|1380->538|1425->555|1530->632|1559->633|1600->646|1664->682|1693->683|1738->700|1866->800|1895->801|1931->810|1960->811|1992->816|2217->1014|2230->1018|2261->1028|2290->1029
+                  LINES: 14->1|19->1|21->3|32->14|32->14|33->15|34->16|34->16|35->17|37->19|37->19|38->20|38->20|38->20|39->21|41->23|41->23|42->24|42->24|43->25|47->29|47->29|47->29|47->29
                   -- GENERATED --
               */
           

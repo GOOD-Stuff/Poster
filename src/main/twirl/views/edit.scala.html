@@ -1,0 +1,35 @@
+@import org.poster.control._
+@(user: User, post: Post, post_id: Int)
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@user.user_name</title>
+    <link type="text/css" href="/css/scalatra.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Edit your message: </h2>
+    <script type="text/javascript">
+            function validateForm() {
+                var msg=document.forms["Form"]["message"].value;
+                if (msg==null || msg=="" || msg==" ") {
+                    alert("Message cannot be empty!");
+                    return false;
+                }
+                if (!msg.replace(/\s/g, '').length) {
+                    alert("Srsly? Stop frodding! Write something useful...");
+                    return false;
+                }
+            }
+        </script>
+    <form action="/edit/@post_id" method="POST" name="Form" onsubmit="return validateForm()">
+        <dl>
+            <dt>Your name:
+            <dd><input type="text" name="user_name" value=@user.user_name style="padding-bottom: 0.5em"></dd>
+            <dt>Your post:</dt>
+            <dd><textarea name="message" rows="5" cols="40">@post.msg</textarea>
+            <dd><input type="submit" value="Edit" class="btn btn-primary">
+        </dl>
+    </form>
+    <a href="/" class="btn btn-primary">Back</a>
+</body>
+</html>

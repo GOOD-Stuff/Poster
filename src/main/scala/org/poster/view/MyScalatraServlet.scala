@@ -42,7 +42,7 @@ class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMa
 
     post("/login") {
         val rs = user.UserLogin(params("login"), params("password"))
-        if (rs == 0) redirect("/user/" + user.user_name)//servletContext.getRequestDispatcher("/user/" + user.user_name).forward(request, response)
+        if (rs == 0) redirect("/user/" + user.user_name)
         else redirect("/login")
     }
 
@@ -71,6 +71,20 @@ class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMa
         val rs = pwork.WritePost(params("user_name"), params("message"), user.id)
         if (rs == 0)
             redirect("/")
+    }
+
+    get("/edit/:id") {
+        pwork.GetSpecPost(params("id").toInt)
+        html.edit(user, pwork, pwork.id)
+    }
+
+    post("/edit/:id") {
+        val rs = pwork.EditUserPost(params("user_name"), params("message"))
+        if (rs == 0)
+            redirect("/")
+        else
+            println("Something bad: " + rs)
+
     }
 
     get("/json") {

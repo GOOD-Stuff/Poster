@@ -3,13 +3,7 @@
 
 <html>
     <head>
-        <title>
-            @if(user.id > 1) {
-                @user.user_name
-            } else {
-                Kek
-            }
-        </title>
+        <title>Poster</title>
         <!--link type="text/css" href="/css/bootstrap.css" rel="stylesheet" /!-->
         <!--link href="/css/bootstrap-responsive.css" rel="stylesheet" /!-->
         <!--link href="/css/syntax.css" rel="stylesheet" /!-->
@@ -32,6 +26,9 @@
                     <dt>@post.name</dt>
                         <dd>@post.date</dd>
                         <dd>@post.msg</dd>
+                        @if((user.id == post.user_id) && (user.id > 1)) {
+                            <a href="/edit/@post.id" class="btn btn-primary">Edit</a>
+                        }
                 }
             }
         </dl>
