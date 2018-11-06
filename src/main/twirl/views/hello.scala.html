@@ -20,17 +20,22 @@
                 <a href="/logout" class="btn btn-primary">Logout</a>
             }
         </div>
-        <dl>
-            @for(post <- plist) {
-                @if(post.msg != "") {
-                    <dt>@post.name</dt>
-                        <dd>@post.date</dd>
-                        <dd>@post.msg</dd>
-                        @if((user.id == post.user_id) && (user.id > 1)) {
-                            <a href="/edit/@post.id" class="btn btn-primary">Edit</a>
-                        }
+            <dl>
+                @for(post <- plist) {
+                    @if(post.msg != "") {
+                        <div class="item">
+                            <dt>@post.name</dt>
+                                <div class="post_date"><dd>@post.date</dd></div>
+                                @if(post.photo_path != null) {
+                                    <dd><!--a href="/photos@post.photo_path"--><img src="@post.photo_path"></dd>
+                                }
+                                <dd>@post.msg</dd>
+                                @if((user.id == post.user_id) && (user.id > 1)) {
+                                    <a href="/edit/@post.id" class="btn btn-primary">Edit</a>
+                                }
+                        </div>
+                    }
                 }
-            }
-        </dl>
+            </dl>
     </body>
 </html>

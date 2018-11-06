@@ -5,6 +5,8 @@ import org.poster.control.User
 import org.scalatra._
 import views._
 
+import servlet.{MultipartConfig, SizeConstraintExceededException, FileUploadSupport}
+
 /*import org.json4s.JsonDSL._
 import org.json4s._
 import org.scalatra.atmosphere._
@@ -14,7 +16,7 @@ import org.scalatra.scalate.ScalateSupport
 import scala.concurrent.ExecutionContext.Implicits.global
 // https://alvinalexander.com/scala/how-to-connect-mysql-database-scala-jdbc-select-query
 
-class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMapSupport {
+class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMapSupport with FileUploadSupport {
     //with JValueResult with JacksonJsonSupport with ScalateSupport with AtmosphereSupport {
     val pwork = new Post
     var user = new User//: User = _
@@ -35,6 +37,15 @@ class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMa
         else
             halt(404)
     }
+
+
+    /*get("/:path") {
+        contentType = "image/jpeg"
+        val file = new java.io.File("/tmp/poster/photos/2_001.jpg")
+        response.setHeader("Content-Disposition", "attachment; filename=" + file.getName)
+        file
+    }*/
+
 
     get("/login") {
         html.auth(user)
@@ -68,7 +79,14 @@ class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMa
     }
 
     post("/post") {
-        val rs = pwork.WritePost(params("user_name"), params("message"), user.id)
+        contentType   = "text/html"
+        val user_name = multiParams("user_name")
+        val message   = multiParams("message")
+        val photo     = fileParams("photo")
+
+        if (photo.getName != "")
+            pwork.UploadImage(photo.getName, photo.getInputStream)
+        val rs = pwork.WritePost(user_name(0), message(0), user.id, photo.getName)
         if (rs == 0)
             redirect("/")
     }
