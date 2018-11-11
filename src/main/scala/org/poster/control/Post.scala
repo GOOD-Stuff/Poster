@@ -14,7 +14,7 @@ class Post {
     var msg: String = _
     var user_id: Int = 1
     var photo_path: String = _
-    private val path = "/img/posts"
+    private val path = "/srv/img"
 
     def GetPostDate(): String = {
         val date = new java.util.Date
@@ -98,17 +98,21 @@ class Post {
     }
 
 
-    def EditUserPost(user_name: String, message: String): Int = {
+    def EditUserPost(user_name: String, message: String, photo_path: String): Int = {
         val date = GetPostDate()
         var name = ""
+        var ipath = ""
         if (user_name.isEmpty) name = "anonymous"
         else name = user_name
+
+        if (!(photo_path.isEmpty))
+            ipath = path + "/" + photo_path
 
         if (message.isEmpty) {
             println("<E> MESSAGE IS EMPTY!")
             -1
         } else {
-            DBWorker.UpdatePost(name, message, date, user_id, id, photo_path)
+            DBWorker.UpdatePost(name, message, date, user_id, id, ipath)
             0
         }
     }

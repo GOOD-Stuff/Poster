@@ -38,15 +38,6 @@ class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMa
             halt(404)
     }
 
-
-    /*get("/:path") {
-        contentType = "image/jpeg"
-        val file = new java.io.File("/tmp/poster/photos/2_001.jpg")
-        response.setHeader("Content-Disposition", "attachment; filename=" + file.getName)
-        file
-    }*/
-
-
     get("/login") {
         html.auth(user)
     }
@@ -70,7 +61,7 @@ class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMa
         val rs = user.UserRegister(params("login"), params("password"))
         if (rs == 0) redirect("/")
         else {
-          <p>Hahaha, very funny, but try again!</p>
+            <p>Hahaha, very funny, but try again!</p>
         }
     }
 
@@ -93,11 +84,21 @@ class MyScalatraServlet extends ScalatraServlet with SessionSupport with FlashMa
 
     get("/edit/:id") {
         pwork.GetSpecPost(params("id").toInt)
-        html.edit(user, pwork, pwork.id)
+        if ((pwork.user_id == user.id) &&  (user.user_name != "anonymous"))
+            html.edit(user, pwork, pwork.id)
+        else
+            halt(404)
     }
 
     post("/edit/:id") {
-        val rs = pwork.EditUserPost(params("user_name"), params("message"))
+        contentType   = "text/html"
+        val user_name = multiParams("user_name")
+        val message   = multiParams("message")
+        val photo     = fileParams("photo")
+
+        if (photo.getName != "")
+            pwork.UploadImage(photo.getName, photo.getInputStream)
+        val rs = pwork.EditUserPost(user_name(0), message(0), photo.getName)
         if (rs == 0)
             redirect("/")
         else

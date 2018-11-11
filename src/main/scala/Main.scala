@@ -6,7 +6,7 @@ import org.eclipse.jetty.servlet.{DefaultServlet, ServletContextHandler}
 import org.eclipse.jetty.webapp.WebAppContext
 import org.scalatra.servlet.ScalatraListener
 
-// https://www.programcreek.com/scala/org.scalatra.servlet.ScalatraListener
+
 object Main {
     def main(args: Array[String]): Unit = {
         val port = 8080

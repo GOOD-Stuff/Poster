@@ -9,13 +9,15 @@ body {
 dt {
     font-family: Waree;
     color: #A049E2;
+    margin-top: 1em;
 }
 
 dd {
-    font-style: italic;
+    /*font-style: italic;*/
+    font-family: "Times New Roman", Times, serif;
 }
 
-dt {
+dl {
     margin-top: 1em;
 }
 
@@ -880,7 +882,7 @@ input[type="submit"].btn.btn-mini {
 @media (max-width: 979px) {
   .navbar-fixed-top {margin-bottom:0;}
   footer[role="contentinfo"] {margin:0;}
-  
+
 }
 
 @media(max-width:767px) {

@@ -20,37 +20,45 @@ object hello extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 Seq[Any](format.raw/*2.51*/("""
 
 """),format.raw/*4.1*/("""<html>
-    <head>
-        <title>Poster</title>
-        <!--link type="text/css" href="/css/bootstrap.css" rel="stylesheet" /!-->
-        <!--link href="/css/bootstrap-responsive.css" rel="stylesheet" /!-->
-        <!--link href="/css/syntax.css" rel="stylesheet" /!-->
-        <link type="text/css" href="/css/scalatra.css" rel="stylesheet" />
-    </head>
-    <body>
-        <h1>"""),_display_(/*13.14*/greeting),format.raw/*13.22*/("""</h1>
-        <div id="nav">
-            <a href="/post" class="btn btn-primary">Post post</a>
-            <a href="/login" class="btn btn-primary"> Sing in/Sign up</a>
-            """),_display_(/*17.14*/if(user.id > 1)/*17.29*/ {_display_(Seq[Any](format.raw/*17.31*/("""
-                """),format.raw/*18.17*/("""<a href="/" class="btn btn-primary">All posts</a>
-                <a href="/user/"""),_display_(/*19.33*/user/*19.37*/.user_name),format.raw/*19.47*/("""" class="btn btn-primary">Home</a>
-                <a href="/logout" class="btn btn-primary">Logout</a>
-            """)))}),format.raw/*21.14*/("""
-        """),format.raw/*22.9*/("""</div>
-        <dl>
-            """),_display_(/*24.14*/for(post <- plist) yield /*24.32*/ {_display_(Seq[Any](format.raw/*24.34*/("""
-                """),_display_(/*25.18*/if(post.msg != "")/*25.36*/ {_display_(Seq[Any](format.raw/*25.38*/("""
-                    """),format.raw/*26.21*/("""<dt>"""),_display_(/*26.26*/post/*26.30*/.name),format.raw/*26.35*/("""</dt>
-                        <dd>"""),_display_(/*27.30*/post/*27.34*/.date),format.raw/*27.39*/("""</dd>
-                        <dd>"""),_display_(/*28.30*/post/*28.34*/.msg),format.raw/*28.38*/("""</dd>
-                        """),_display_(/*29.26*/if((user.id == post.user_id) && (user.id > 1))/*29.72*/ {_display_(Seq[Any](format.raw/*29.74*/("""
-                            """),format.raw/*30.29*/("""<a href="/edit/"""),_display_(/*30.45*/post/*30.49*/.id),format.raw/*30.52*/("""" class="btn btn-primary">Edit</a>
-                        """)))}),format.raw/*31.26*/("""
-                """)))}),format.raw/*32.18*/("""
-            """)))}),format.raw/*33.14*/("""
-        """),format.raw/*34.9*/("""</dl>
-    </body>
+<head>
+    <title>Poster</title>
+    <!--link type="text/css" href="/css/bootstrap.css" rel="stylesheet" /!-->
+    <!--link href="/css/bootstrap-responsive.css" rel="stylesheet" /!-->
+    <!--link href="/css/syntax.css" rel="stylesheet" /!-->
+    <!--link href="/css/scalatra.css" rel="stylesheet" /!-->
+    <link type="text/css" href="/css/poster.css" rel="stylesheet">
+</head>
+<body>
+    <h1>"""),_display_(/*14.10*/greeting),format.raw/*14.18*/("""</h1>
+    <div id="nav">
+        <a href="/post" class="btn btn-primary">Post post</a>
+        <a href="/login" class="btn btn-primary"> Sing in/Sign up</a>
+        """),_display_(/*18.10*/if(user.id > 1)/*18.25*/ {_display_(Seq[Any](format.raw/*18.27*/("""
+            """),format.raw/*19.13*/("""<a href="/" class="btn btn-primary">All posts</a>
+            <a href="/user/"""),_display_(/*20.29*/user/*20.33*/.user_name),format.raw/*20.43*/("""" class="btn btn-primary">Home</a>
+            <a href="/logout" class="btn btn-primary">Logout</a>
+    """)))}),format.raw/*22.6*/("""
+    """),format.raw/*23.5*/("""</div>
+    <dl>
+        """),_display_(/*25.10*/for(post <- plist) yield /*25.28*/ {_display_(Seq[Any](format.raw/*25.30*/("""
+            """),_display_(/*26.14*/if(post.msg != "")/*26.32*/ {_display_(Seq[Any](format.raw/*26.34*/("""
+            """),format.raw/*27.13*/("""<div class="item">
+                <dt>"""),_display_(/*28.22*/post/*28.26*/.name),format.raw/*28.31*/("""</dt>
+                    <div class="post_date"><dd>"""),_display_(/*29.49*/post/*29.53*/.date),format.raw/*29.58*/("""</dd></div>
+                    """),_display_(/*30.22*/if(post.photo_path != null)/*30.49*/ {_display_(Seq[Any](format.raw/*30.51*/("""
+                        """),_display_(/*31.26*/if(post.photo_path != "")/*31.51*/ {_display_(Seq[Any](format.raw/*31.53*/("""
+                            """),format.raw/*32.29*/("""<img src=""""),_display_(/*32.40*/post/*32.44*/.photo_path),format.raw/*32.55*/("""">
+                        """)))}),format.raw/*33.26*/("""
+                    """)))}),format.raw/*34.22*/("""
+                    """),format.raw/*35.21*/("""<dd>"""),_display_(/*35.26*/post/*35.30*/.msg),format.raw/*35.34*/("""</dd>
+                    """),_display_(/*36.22*/if((user.id == post.user_id) && (user.id > 1))/*36.68*/ {_display_(Seq[Any](format.raw/*36.70*/("""
+                        """),format.raw/*37.25*/("""<a href="/edit/"""),_display_(/*37.41*/post/*37.45*/.id),format.raw/*37.48*/("""" class="btn btn-primary">Edit</a>
+                    """)))}),format.raw/*38.22*/("""
+            """),format.raw/*39.13*/("""</div>
+            """)))}),format.raw/*40.14*/("""
+        """)))}),format.raw/*41.10*/("""
+    """),format.raw/*42.5*/("""</dl>
+</body>
 </html>
 """))
       }
@@ -68,11 +76,11 @@ Seq[Any](format.raw/*2.51*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun Nov 04 18:56:49 MSK 2018
+                  DATE: Sun Nov 11 15:22:33 MSK 2018
                   SOURCE: /home/vldmr/Projects/Scala/Poster/src/main/twirl/views/hello.scala.html
-                  HASH: fbe37215a2745f51ca6aa7e0cb29f18d34700f45
-                  MATRIX: 269->1|617->30|761->79|789->81|1197->462|1226->470|1435->652|1459->667|1499->669|1544->686|1653->768|1666->772|1697->782|1845->899|1881->908|1941->941|1975->959|2015->961|2060->979|2087->997|2127->999|2176->1020|2208->1025|2221->1029|2247->1034|2309->1069|2322->1073|2348->1078|2410->1113|2423->1117|2448->1121|2506->1152|2561->1198|2601->1200|2658->1229|2701->1245|2714->1249|2738->1252|2829->1312|2878->1330|2923->1344|2959->1353
-                  LINES: 10->1|15->2|20->2|22->4|31->13|31->13|35->17|35->17|35->17|36->18|37->19|37->19|37->19|39->21|40->22|42->24|42->24|42->24|43->25|43->25|43->25|44->26|44->26|44->26|44->26|45->27|45->27|45->27|46->28|46->28|46->28|47->29|47->29|47->29|48->30|48->30|48->30|48->30|49->31|50->32|51->33|52->34
+                  HASH: a0fbab13573847262c8d10f3bc074242938ea9c9
+                  MATRIX: 269->1|617->30|761->79|789->81|1218->483|1247->491|1440->657|1464->672|1504->674|1545->687|1650->765|1663->769|1694->779|1829->884|1861->889|1913->914|1947->932|1987->934|2028->948|2055->966|2095->968|2136->981|2203->1021|2216->1025|2242->1030|2323->1084|2336->1088|2362->1093|2422->1126|2458->1153|2498->1155|2551->1181|2585->1206|2625->1208|2682->1237|2720->1248|2733->1252|2765->1263|2824->1291|2877->1313|2926->1334|2958->1339|2971->1343|2996->1347|3050->1374|3105->1420|3145->1422|3198->1447|3241->1463|3254->1467|3278->1470|3365->1526|3406->1539|3457->1559|3498->1569|3530->1574
+                  LINES: 10->1|15->2|20->2|22->4|32->14|32->14|36->18|36->18|36->18|37->19|38->20|38->20|38->20|40->22|41->23|43->25|43->25|43->25|44->26|44->26|44->26|45->27|46->28|46->28|46->28|47->29|47->29|47->29|48->30|48->30|48->30|49->31|49->31|49->31|50->32|50->32|50->32|50->32|51->33|52->34|53->35|53->35|53->35|53->35|54->36|54->36|54->36|55->37|55->37|55->37|55->37|56->38|57->39|58->40|59->41|60->42
                   -- GENERATED --
               */
           

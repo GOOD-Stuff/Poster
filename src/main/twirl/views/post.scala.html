@@ -11,27 +11,27 @@
 <body>
     <h2>Post your message: </h2>
     <script type="text/javascript">
-        function validateForm() {
-            var msg=document.forms["Form"]["message"].value;
-            if (msg==null || msg=="" || msg==" ") {
-                alert("Message cannot be empty!");
-                return false;
+            function validateForm() {
+                var msg=document.forms["Form"]["message"].value;
+                if (msg==null || msg=="" || msg==" ") {
+                    alert("Message cannot be empty!");
+                    return false;
+                }
+                if (!msg.replace(/\s/g, '').length) {
+                    alert("Srsly? Stop frodding! Write something useful...");
+                    return false;
+                }
             }
-            if (!msg.replace(/\s/g, '').length) {
-                alert("Srsly? Stop frodding! Write something useful...");
-                return false;
-            }
-        }
-    </script>
+        </script>
     <form action="/post" method="POST" name="Form" enctype="multipart/form-data" onsubmit="return validateForm()">
         <dl>
             <dt>Your name:
                 <dd><input type="text" name="user_name" value=@user.user_name style="padding-bottom: 0.5em"></dd>
             <dt>Your post:</dt>
-            <dd><textarea name="message" rows="5" cols="40"></textarea>
+                <dd><textarea name="message" rows="5" cols="40"></textarea>
             <dt>Photo (optional):</dt>
-                <dd><input type="file" name="photo"></dd>
-            <dd><input type="submit" value="Post" class="btn btn-primary">
+                <dd><input type="file" name="photo" class="btn btn-primary"></dd>
+            <dd><input type="submit" value="Post" class="btn btn-primary"></dd>
         </dl>
     </form>
     <a href="/" class="btn btn-primary">Back</a>

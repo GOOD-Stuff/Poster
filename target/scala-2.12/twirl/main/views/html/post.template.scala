@@ -29,25 +29,27 @@ Seq[Any](format.raw/*1.33*/("""
 <body>
     <h2>Post your message: </h2>
     <script type="text/javascript">
-        function validateForm() """),format.raw/*14.33*/("""{"""),format.raw/*14.34*/("""
-            """),format.raw/*15.13*/("""var msg=document.forms["Form"]["message"].value;
-            if (msg==null || msg=="" || msg==" ") """),format.raw/*16.51*/("""{"""),format.raw/*16.52*/("""
-                """),format.raw/*17.17*/("""alert("Message cannot be empty!");
-                return false;
-            """),format.raw/*19.13*/("""}"""),format.raw/*19.14*/("""
-            """),format.raw/*20.13*/("""if (!msg.replace(/\s/g, '').length) """),format.raw/*20.49*/("""{"""),format.raw/*20.50*/("""
-                """),format.raw/*21.17*/("""alert("Srsly? Stop frodding! Write something useful...");
-                return false;
-            """),format.raw/*23.13*/("""}"""),format.raw/*23.14*/("""
-        """),format.raw/*24.9*/("""}"""),format.raw/*24.10*/("""
-    """),format.raw/*25.5*/("""</script>
-    <form action="/post" method="POST" name="Form" onsubmit="return validateForm()">
+            function validateForm() """),format.raw/*14.37*/("""{"""),format.raw/*14.38*/("""
+                """),format.raw/*15.17*/("""var msg=document.forms["Form"]["message"].value;
+                if (msg==null || msg=="" || msg==" ") """),format.raw/*16.55*/("""{"""),format.raw/*16.56*/("""
+                    """),format.raw/*17.21*/("""alert("Message cannot be empty!");
+                    return false;
+                """),format.raw/*19.17*/("""}"""),format.raw/*19.18*/("""
+                """),format.raw/*20.17*/("""if (!msg.replace(/\s/g, '').length) """),format.raw/*20.53*/("""{"""),format.raw/*20.54*/("""
+                    """),format.raw/*21.21*/("""alert("Srsly? Stop frodding! Write something useful...");
+                    return false;
+                """),format.raw/*23.17*/("""}"""),format.raw/*23.18*/("""
+            """),format.raw/*24.13*/("""}"""),format.raw/*24.14*/("""
+        """),format.raw/*25.9*/("""</script>
+    <form action="/post" method="POST" name="Form" enctype="multipart/form-data" onsubmit="return validateForm()">
         <dl>
             <dt>Your name:
                 <dd><input type="text" name="user_name" value="""),_display_(/*29.64*/user/*29.68*/.user_name),format.raw/*29.78*/(""" """),format.raw/*29.79*/("""style="padding-bottom: 0.5em"></dd>
             <dt>Your post:</dt>
-            <dd><textarea name="message" rows="5" cols="40"></textarea>
-            <dd><input type="submit" value="Post" class="btn btn-primary">
+                <dd><textarea name="message" rows="5" cols="40"></textarea>
+            <dt>Photo (optional):</dt>
+                <dd><input type="file" name="photo" class="btn btn-primary"></dd>
+            <dd><input type="submit" value="Post" class="btn btn-primary"></dd>
         </dl>
     </form>
     <a href="/" class="btn btn-primary">Back</a>
@@ -69,10 +71,10 @@ Seq[Any](format.raw/*1.33*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun Nov 04 18:33:35 MSK 2018
+                  DATE: Sun Nov 11 15:19:27 MSK 2018
                   SOURCE: /home/vldmr/Projects/Scala/Poster/src/main/twirl/views/post.scala.html
-                  HASH: 2fcf8f89881f937cea35907b6c6476cf3cf71f35
-                  MATRIX: 582->1|708->32|736->34|1154->424|1183->425|1224->438|1351->537|1380->538|1425->555|1530->632|1559->633|1600->646|1664->682|1693->683|1738->700|1866->800|1895->801|1931->810|1960->811|1992->816|2217->1014|2230->1018|2261->1028|2290->1029
+                  HASH: 26cd920c63f8716583b338a1fff65684b60ecb77
+                  MATRIX: 582->1|708->32|736->34|1158->428|1187->429|1232->446|1363->549|1392->550|1441->571|1554->656|1583->657|1628->674|1692->710|1721->711|1770->732|1906->840|1935->841|1976->854|2005->855|2041->864|2296->1092|2309->1096|2340->1106|2369->1107
                   LINES: 14->1|19->1|21->3|32->14|32->14|33->15|34->16|34->16|35->17|37->19|37->19|38->20|38->20|38->20|39->21|41->23|41->23|42->24|42->24|43->25|47->29|47->29|47->29|47->29
                   -- GENERATED --
               */

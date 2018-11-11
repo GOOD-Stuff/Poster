@@ -21,12 +21,14 @@
                 }
             }
         </script>
-    <form action="/edit/@post_id" method="POST" name="Form" onsubmit="return validateForm()">
+    <form action="/edit/@post_id" method="POST" name="Form" enctype="multipart/form-data" onsubmit="return validateForm()">
         <dl>
             <dt>Your name:
-            <dd><input type="text" name="user_name" value=@user.user_name style="padding-bottom: 0.5em"></dd>
+                <dd><input type="text" name="user_name" value=@user.user_name style="padding-bottom: 0.5em"></dd>
             <dt>Your post:</dt>
-            <dd><textarea name="message" rows="5" cols="40">@post.msg</textarea>
+                <dd><textarea name="message" rows="5" cols="40">@post.msg</textarea>
+            <dt>Photo (optional):</dt>
+                <dd><input type="file" name="photo"></dd> <p></p>
             <dd><input type="submit" value="Edit" class="btn btn-primary">
         </dl>
     </form>

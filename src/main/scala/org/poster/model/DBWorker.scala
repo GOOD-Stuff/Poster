@@ -11,7 +11,7 @@ import java.sql.{Connection, DriverManager, ResultSet}
 // TODO: rewrite, set 1 class and 2 traits
 object DBWorker {
     private val logger = LoggerFactory.getLogger(getClass)
-    private val url = "jdbc:mysql://localhost:3306/poster"
+    private val url = "jdbc:mysql://localhost:3306/test_lol"
     private val username = "root"
     private val password = "******"
     private var connection: Connection = null
@@ -33,9 +33,9 @@ object DBWorker {
         try {
             val state = connection.createStatement
             var rs = state.executeQuery("CREATE TABLE user_auth (" +
-                                        "id INT NOT NULL AUTO_INCREMENT," +
-                                        "user_name NVARCHAR(128) NOT NULL," +
-                                        "password nvarchar(128));")
+                "id INT NOT NULL AUTO_INCREMENT," +
+                "user_name NVARCHAR(128) NOT NULL," +
+                "password nvarchar(128));")
             //rs = state.executeQuery("INSERT INTO user_auth (user_name) values(\"anonymous\");")
         } catch {
             case e: Exception => e.printStackTrace
